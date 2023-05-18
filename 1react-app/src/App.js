@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './Pages/Layout';
 import Home from './Pages/Home';
 import Login from './Pages/Login';
-import NoPage from './Pages/Nopage';
 import Data from './Pages/Data';
 import About from './Pages/About';
 import User from './Pages/User'; 
@@ -18,7 +17,6 @@ const App = () => {
          <Route index element={<Login />} /> 
           <Route path="/" element={<Layout />}>
             <Route path="Home" element={<Home />} />
-            <Route path="NoPage" element={<NoPage />} />
             <Route path="Data" element={<Data />} />
             <Route path="About" element={<About />} />
             <Route path="Contact" element={<Contact/>}/>
