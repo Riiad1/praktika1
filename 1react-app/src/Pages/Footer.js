@@ -8,7 +8,7 @@ const Footer = () => {
   useEffect(() => {
     const adjustFooterPosition = () => {
       const footer = document.querySelector('footer');
-      const footerHeight = footer.offsetHeight;
+      // const footerHeight = footer.offsetHeight;
       const windowHeight = window.innerHeight;
       const bodyHeight = document.body.offsetHeight;
 

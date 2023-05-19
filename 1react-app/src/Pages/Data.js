@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Card from 'react-bootstrap/Card'
 import '../Components/data.scss'
-import Footer from './Footer';
 
 const Data = () => {
     const [getapi, setGetapi] =useState ([]);
